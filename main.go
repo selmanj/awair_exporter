@@ -181,5 +181,6 @@ func main() {
 	flag.Parse()
 	http.Handle("/metrics", promhttp.Handler())
 	http.Handle("/awair", AwairHandler())
+	log.Printf("Listening for http connections on %s\n", *addr)
 	log.Fatal(http.ListenAndServe(*addr, nil))
 }

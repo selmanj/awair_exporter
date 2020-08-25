@@ -2,6 +2,8 @@
 
 Prometheus exporter for Awair air quality monitor products. 
 
+![Example Grafana dashboard](https://user-images.githubusercontent.com/798897/91205603-aaad2180-e6ba-11ea-8c0b-393b2dd20c99.png)
+
 ## Example metrics
 
 ```
